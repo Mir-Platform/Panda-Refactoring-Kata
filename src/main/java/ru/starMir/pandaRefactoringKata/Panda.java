@@ -1,4 +1,4 @@
-package pandaRefactoringKata;
+package ru.starMir.pandaRefactoringKata;
 
 public class Panda {
 

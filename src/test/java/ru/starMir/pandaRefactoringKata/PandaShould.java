@@ -1,8 +1,6 @@
 package ru.starMir.pandaRefactoringKata;
 
 import org.junit.jupiter.api.Test;
-import pandaRefactoringKata.Panda;
-import pandaRefactoringKata.PandaTypeEnum;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
