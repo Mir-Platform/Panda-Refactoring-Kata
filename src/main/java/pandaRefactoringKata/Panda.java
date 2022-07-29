@@ -27,12 +27,12 @@ public class Panda {
         }
     }
 
-    private double getBaseSpeed(double voltage) {
-        return Math.min(24.0, voltage * getBaseSpeed());
+    private double getBaseSpeed(double numberOfBamboos) {
+        return Math.min(24.0, numberOfBamboos * getBaseSpeed());
     }
 
     private double getLoadFactor() {
-        return 9.0;
+        return 2.0;
     }
 
     private double getBaseSpeed() {
