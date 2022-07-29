@@ -37,7 +37,7 @@ public class PandaShould {
     }
 
     @Test
-    public void haveSpeedAs36WhenItIsRedAndNotSleepingAndHasEaten3Bamboos() {
+    public void haveSpeedAs12WhenItIsRedAndNotSleepingAndHasEaten1Bamboos() {
         Panda panda = new Panda(PandaTypeEnum.RED, 0, 1, false);
         assertEquals(12.0, panda.getSpeed(), 0.0);
     }
